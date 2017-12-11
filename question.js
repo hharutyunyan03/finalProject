@@ -25,97 +25,42 @@ var questions = [{
 	"option2": "A machine language",
 	"option3": "An assembly language",
 	"option4": "All of the above",
+	"option5": "Processor",
 	"answer": "1"
 }, {
 	"question": "Web pages are written using ?",
-	"option1": "FTP",
-	"option2": "HTTP",
-	"option3": "HTML",
-	"option4": "URL",
+	"option5": "FTP",
+	"option6": "HTTP",
+	"option7": "HTML",
+	"option8": "URL",
+	"option9": "Processor",
 	"answer": "3"
 }, {
 	"question": "UNIVAC is an example of",
-	"option1": "First generation computer",
-	"option2": "Second generation computer",
-	"option3": "Third generation computer",
-	"option4": "Fourth generation computer",
+	"option5": "First generation computer",
+	"option6": "Second generation computer",
+	"option7": "Third generation computer",
+	"option8": "Fourth generation computer",
+	"option9": "HTML",
 	"answer": "1"
 }, {
 	"question": "Which of the following is an example of non volatile memory ?",
-	"option1": "VLSI",
-	"option2": "LSI",
-	"option3": "ROM",
-	"option4": "RAM",
+	"option5": "VLSI",
+	"option6": "LSI",
+	"option7": "ROM",
+	"option8": "RAM",
+	"option9": "Third generation computer",
 	"answer": "3"
 }, {
 	"question": "Graphic interfaces were first used in a xerox product is called ?",
-	"option1": "Ethernet",
-	"option2": "Inter LISP",
-	"option3": "Small talk",
-	"option4": "Zeta LISP",
+	"option10": "",
 	"answer": "1"
 }, {
 	"question": "Find the odd one out ?",
-	"option1": "ORACLE",
-	"option2": "SYBASE",
-	"option3": "C",
-	"option4": "INFORMIX",
+	"option10": "",
 	"answer": "3"
 }, {
 	"question": "The ------ is the administrative section of the computer system?",
-	"option1": "Memory Unit",
-	"option2": "Input Unit",
-	"option3": "Central Processing Unit",
-	"option4": "Control Unit",
+	"option10": "",
 	"answer": "3"
 }];
-
-
-
-
-
-
-
-/* // NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW
-var questions1 = [{
-	"question1": "The first mechanical computer designed by Charles Babbage was called ?",
-	"option11": "Abacus",
-	"option12": "Analytical Engine",
-	"option13": "Calculator",
-	"option14": "Processor",
-	"option15": "Processor",
-	"answer": "12"
-}, {
-	"question1": "Which of the following is the most powerful type of computer ?",
-	"option11": "Super-micro",
-	"option12": "Super conductor",
-	"option13": "Super computer",
-	"option14": "Megaframe",
-	"option15": "Processor",
-	"answer": "13"
-}, {
-	"question1": "Which is a single integrated circuit?",
-	"option11": "Gate",
-	"option12": "Mother Board",
-	"option13": "Chip",
-	"option14": "CPU",
-	"option15": "Processor",
-	"answer": "11"
-}, {
-	"question1": "C is ?",
-	"option11": "A third generation high level language",
-	"option12": "A machine language",
-	"option13": "An assembly language",
-	"option14": "All of the above",
-	"option15": "Processor",
-	"answer": "11"
-}, {
-	"question1": "Web pages are written using ?",
-	"option11": "FTP",
-	"option12": "HTTP",
-	"option13": "HTML",
-	"option14": "URL",
-	"option15": "Processor",
-	"answer": "13"
-}]
-*/
