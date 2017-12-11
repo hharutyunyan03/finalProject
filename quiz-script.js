@@ -11,37 +11,14 @@ var opt1 = document.getElementById('opt1');
 var opt2 = document.getElementById('opt2');
 var opt3 = document.getElementById('opt3');
 var opt4 = document.getElementById('opt4');
+var opt5 = document.getElementById('opt5');
+var opt6 = document.getElementById('opt6');
+var opt7 = document.getElementById('opt7');
+var opt8 = document.getElementById('opt8');
+var opt9 = document.getElementById('opt9');
+var opt10 = document.getElementById('opt10');
 var nextButton = document.getElementById('nextButton');
 var resultCont = document.getElementById('result');
-
-
-
-
-
-/*	// NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW
-var container = document.getElementById('quizContainer1');
-var questionEl1 = document.getElementById('question1');
-var opt11 = document.getElementById('opt11');
-var opt12 = document.getElementById('opt12');
-var opt13 = document.getElementById('opt13');
-var opt14 = document.getElementById('opt14');
-var opt15 = document.getElementById('opt15');
-var nextButton = document.getElementById('nextButton');
-var resultCont = document.getElementById('result');
-*/
-
-
-	
-/*  // NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW
-function loadQuestion1 (questionIndex1) {
-	var q1 = questions1[questionIndex1];
-	questionEl.textContent = (questionIndex1 + 1) + '. ' + q1.question1;
-	opt11.textContent = q1.option11;
-	opt12.textContent = q1.option12;
-	opt13.textContent = q1.option13;
-	opt14.textContent = q1.option14;
-	opt15.textContent = q1.option15;
-};
 
 
 
@@ -73,9 +50,29 @@ function loadNextQuestion () {
 loadQuestion1(currentQuestion);
 */
 
+function loadQuestion (questionIndex) {
+	var q = questions[questionIndex];
+	questionEl.textContent = (questionIndex + 1) + '. ' + q.question;
+	
+	if(questionIndex < 4){
 
+		opt1.textContent = q.option1;
+		opt2.textContent = q.option2;
+		opt3.textContent = q.option3;
+		opt4.textContent = q.option4;
+		
+	} else if(questionIndex >= 4 && questionIndex < 7){		
+		opt5.textContent = q.option5;
+		opt6.textContent = q.option6;
+		opt7.textContent = q.option7;
+		opt8.textContent = q.option8;
+		opt9.textContent = q.option9;
+	} else {
+		opt10.textContent = q.option10;
+	}
+};
 
-
+/*
 function loadQuestion (questionIndex) {
 	var q = questions[questionIndex];
 	questionEl.textContent = (questionIndex + 1) + '. ' + q.question;
@@ -84,6 +81,7 @@ function loadQuestion (questionIndex) {
 	opt3.textContent = q.option3;
 	opt4.textContent = q.option4;
 };
+*/
 
 function loadNextQuestion () {
 	var selectedOption = document.querySelector('input[type=radio]:checked');
